@@ -1,6 +1,14 @@
 'use client'
 
-import { Box, Card, Container, GridItem, SimpleGrid, Text, VStack, } from '@chakra-ui/react'
+import {
+  Box,
+  Card,
+  Container,
+  GridItem,
+  SimpleGrid,
+  Text,
+  VStack,
+} from '@chakra-ui/react'
 import { useSelector } from 'react-redux'
 import { RootState } from '@/redux/store'
 import TransactionSection from '@/components/transactions/TransactionSection'
