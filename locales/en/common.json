@@ -1,0 +1,19 @@
+{
+  "bankTransactions": "Bank Transactions",
+  "accounts": "Accounts",
+  "transactions": "Transactions",
+  "newTransaction": "New Transaction",
+  "new": "New",
+  "originAccount": "Origin Account",
+  "destinationAccount": "Destination Account",
+  "selectOneOption": "Select an option",
+  "value": "Amount",
+  "typeValue": "Enter the amount",
+  "transactionSubmitted": "Transaction Submitted",
+  "transferIsConfirmed": "Transfer Confirmed",
+  "transfer": "Transfer",
+  "totalTransactions": "Total Transactions",
+  "totalTransferred": "Total Amount Transferred",
+  "accountWithMoreTransfers": "Account with Most Transfers",
+  "tradesInRealTime": "Real-Time Trades"
+}

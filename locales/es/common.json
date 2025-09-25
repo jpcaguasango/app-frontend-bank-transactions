@@ -1,0 +1,19 @@
+{
+  "bankTransactions": "Transacciones Bancarias",
+  "accounts": "Cuentas",
+  "transactions": "Transacciones",
+  "newTransaction": "Nueva transacción",
+  "new": "Nuevo",
+  "originAccount": "Cuenta Origen",
+  "destinationAccount": "Cuenta Destino",
+  "selectOneOption": "Selecciona una opción",
+  "value": "Valor",
+  "typeValue": "Escriba el valor",
+  "transactionSubmitted": "Transacción Enviada",
+  "transferIsConfirmed": "Transferencia Confirmada",
+  "transfer": "Transferir",
+  "totalTransactions": "Total de transacciones",
+  "totalTransferred": "Total de dinero transferido",
+  "accountWithMoreTransfers": "Cuenta con más transferencias",
+  "tradesInRealTime": "Trades en tiempo real"
+}
