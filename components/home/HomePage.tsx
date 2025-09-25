@@ -1,14 +1,6 @@
 'use client'
 
-import {
-  Box,
-  Card,
-  Container,
-  GridItem,
-  SimpleGrid,
-  Text,
-  VStack,
-} from '@chakra-ui/react'
+import { Box, Card, Container, GridItem, SimpleGrid, Text, VStack, } from '@chakra-ui/react'
 import { useSelector } from 'react-redux'
 import { RootState } from '@/redux/store'
 import TransactionSection from '@/components/transactions/TransactionSection'
@@ -44,9 +36,10 @@ const Home = () => {
     {}
   )
 
-  const mostRepeated = Object.entries(counts).reduce((a, b) =>
-    b[1] > a[1] ? b : a
-  )
+  const mostRepeated =
+    Object.entries(counts).length > 0
+      ? Object.entries(counts).reduce((a, b) => (b[1] > a[1] ? b : a))
+      : []
 
   return (
     <Container fluid>
@@ -80,7 +73,7 @@ const Home = () => {
                 <VStack align="start" gap={4}>
                   <Text textStyle="xs">{t('accountWithMoreTransfers')}</Text>
                   <Text textStyle="md" fontWeight="bold">
-                    {mostRepeated[0]}
+                    {mostRepeated?.[0] ?? '-'}
                   </Text>
                 </VStack>
               </Card.Body>
